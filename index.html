@@ -1,0 +1,67 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body {
+            margin: 100px;
+        }
+ 
+        #textbox {
+            width: 40vw;
+            height: 30vh;
+            position: absolute;
+            margin-left: 50px;
+            margin-top: 20px;
+        }
+ 
+        button {
+            width: 70px;
+            height: 40px;
+            margin-top: 120px;
+            margin-left: 50px;
+            background-color: #fff;
+            color: black;
+            border-radius: 10px;
+            box-shadow: grey;
+            position: absolute;
+        }
+ 
+        #sample {
+            width: 70vw;
+            margin: 50px;
+            background-color: white;
+            color: #333;
+            padding: 20px;
+            font-size: x-large;
+            position: absolute;
+        }
+ 
+        h1 {
+            margin-left: 50px;
+            margin-top: 160px;
+        }
+    </style>
+</head>
+ 
+<body>
+    <div id="sample">
+        May I get a GT3
+    </div>
+    <br />
+     
+    <button onclick="copyText()">Copy</button>
+    <br />
+     
+    <img src="/binance.jpg">
+     
+    <script>
+        function copyText() {
+     
+            /* Copy text into clipboard */
+            navigator.clipboard.writeText
+                ("0x85599a0f1706be5c8b205a24e06bde358b79c454");
+        }
+    </script>
+</body>
+</html>
